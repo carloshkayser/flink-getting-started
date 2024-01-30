@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyflink-getting-started"
+version = "0.1.0"
+description = ""
+authors = ["Carlos Kayser <carloshkayser@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+websockets = "^12.0"
+websocket = "^0.2.1"
+apache-flink = "^1.18.1"
+kafka-python = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
